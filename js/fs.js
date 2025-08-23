@@ -27,7 +27,7 @@
     
         // 更新日志提示
         document.querySelector('.update-info').addEventListener('click', () => {
-            alert(`完整更新日志：\n\n${updateDate.toLocaleDateString()} 版本更新\n- 新增存档编辑1.0\n- 优化UI响应速度30%\n- 修复已知兼容性问题`);
+            alert(`完整更新日志：\n\n${updateDate.toLocaleDateString()} 版本更新\n- 新增存档编辑1.0\n- 优化UI响应速度30%\n- 修复已知兼容性问题\n- 更详细的看群信息`);
         });
     
         // 蓝奏云下载按钮事件 (新增部分)
@@ -35,9 +35,9 @@
             if (btn.textContent.trim() === '蓝奏云下载') {
                 btn.addEventListener('click', function(e) {
                     e.preventDefault();
-                    alert('密码:86rh');
+                    alert('密码:6f7m');
                     // 实际部署时可替换为：
-                    window.open('https://wwvt.lanzoum.com/iJ8Gi30ydduj');
+                    window.open('https://wwvt.lanzoum.com/i8E6S34ab83a');
                 });
             }
         });
@@ -100,3 +100,4 @@
             const touch = e.touches[0];
             createCoreText(touch.clientX, touch.clientY);
         }, 100));
+
